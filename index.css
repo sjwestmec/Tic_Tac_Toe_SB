@@ -3,7 +3,24 @@ h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-.grid-container {
+.grid {
     display: grid;
-    column-gap: 50px;
+    gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
 }
+
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+button{
+    width: 50%;
+    height: 100%;
+    font-size: 150px;
+    background-color: grey;
+    color: grey;
+}
+
